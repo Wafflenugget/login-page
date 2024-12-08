@@ -1,0 +1,65 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1529419412599-7bb870e11810?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.login-container, .signup-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1, .signup-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container input, .signup-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button, .signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover, .signup-container button:hover {
+    background-color: #45a049;
+}
+
+.login-container .register-link, .signup-container .back-to-login {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-container .register-link a, .signup-container .back-to-login a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login-container .register-link a:hover, .signup-container .back-to-login a:hover {
+    text-decoration: underline;
+}
+
+/* Initially hide the sign-up form */
+.signup-container {
+    display: none;
+}
